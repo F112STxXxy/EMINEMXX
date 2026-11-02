@@ -1,0 +1,10 @@
+firebase deploy --only hostingfirebase deploy --only hosting{
+  "hosting": {
+    "public": ".",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
